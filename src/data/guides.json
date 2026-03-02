@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "first-time-buyer-guide-uk",
+    "title": "First-Time Buyer Guide (UK)",
+    "description": "A structured overview of the UK home-buying process, from saving for a deposit to completing your purchase.",
+    "featured": true,
+    "sections": [
+      {
+        "heading": "Getting Started",
+        "content": "Buying your first home is one of the most significant financial decisions you'll make. Before you begin your property search, it's essential to understand your financial position and what you can realistically afford. Start by reviewing your income, existing debts, and monthly outgoings. This will give you a clear picture of how much you can comfortably allocate towards mortgage repayments."
+      },
+      {
+        "heading": "Saving for a Deposit",
+        "content": "Most lenders require a deposit of at least 5-10% of the property value, though a larger deposit (15-20%) will typically secure better interest rates. Consider using a Lifetime ISA (LISA) if you're under 40, which provides a 25% government bonus on savings up to £4,000 per year. First-time buyers may also benefit from Help to Buy schemes, depending on availability in your region."
+      },
+      {
+        "heading": "Understanding Your Budget",
+        "content": "Lenders typically offer mortgages of 4 to 4.5 times your annual household income, though this varies based on your circumstances. Use a mortgage affordability calculator to estimate your borrowing power. Remember to factor in additional costs: stamp duty (though first-time buyers have relief on properties up to £425,000), solicitor fees, surveys, and moving costs."
+      },
+      {
+        "heading": "Getting a Mortgage Agreement in Principle",
+        "content": "Before seriously viewing properties, obtain a mortgage Agreement in Principle (AIP) from a lender. This confirms how much they're likely to lend you, subject to full application. An AIP strengthens your position when making offers and shows estate agents you're a serious buyer. Most AIPs are valid for 60-90 days."
+      },
+      {
+        "heading": "The Buying Process",
+        "content": "Once your offer is accepted, you'll instruct a solicitor to handle conveyancing. They'll conduct searches, review contracts, and manage the legal transfer of ownership. Simultaneously, arrange a property survey—this can range from a basic valuation to a full structural survey for older properties. The process typically takes 8-12 weeks from offer acceptance to completion."
+      },
+      {
+        "heading": "Completion and Beyond",
+        "content": "On completion day, your solicitor transfers funds to the seller's solicitor, and you receive the keys to your new home. Ensure you have buildings insurance in place from this date. After completion, your solicitor will register your ownership with the Land Registry. Congratulations—you're now a homeowner."
+      }
+    ],
+    "relatedTools": ["mortgage-affordability", "stamp-duty"],
+    "relatedProducts": ["first-time-buyer-roadmap"]
+  },
+  {
+    "slug": "understanding-isas",
+    "title": "Understanding ISAs",
+    "description": "An introduction to Individual Savings Accounts and how to use them effectively for tax-efficient saving.",
+    "featured": true,
+    "sections": [
+      {
+        "heading": "What is an ISA?",
+        "content": "An Individual Savings Account (ISA) is a tax-efficient wrapper for your savings and investments. Any interest earned, dividends received, or capital gains made within an ISA are completely free from UK tax. Each tax year (6 April to 5 April), you have an ISA allowance—currently £20,000—which you can spread across different types of ISAs."
+      },
+      {
+        "heading": "Types of ISA",
+        "content": "There are four main types of ISA: Cash ISAs (for savings), Stocks and Shares ISAs (for investments), Innovative Finance ISAs (for peer-to-peer lending), and Lifetime ISAs (for first home purchase or retirement). Each serves different purposes and carries different levels of risk. You can split your annual allowance across multiple ISA types, but you can only pay into one of each type per tax year."
+      },
+      {
+        "heading": "Cash ISAs",
+        "content": "Cash ISAs work like regular savings accounts but with tax-free interest. They're suitable for short-term savings goals or emergency funds where you need guaranteed access to your capital. Interest rates vary between providers, so it's worth comparing rates regularly. Some Cash ISAs offer fixed rates for a set period, while others have variable rates."
+      },
+      {
+        "heading": "Stocks and Shares ISAs",
+        "content": "A Stocks and Shares ISA allows you to invest in funds, shares, and bonds without paying capital gains tax or dividend tax on your returns. This type of ISA is typically more suitable for longer-term goals (5+ years) as investments can fluctuate in value. The potential for higher returns comes with higher risk."
+      },
+      {
+        "heading": "Lifetime ISAs",
+        "content": "The Lifetime ISA (LISA) is designed for adults under 40 saving for their first home or retirement. You can save up to £4,000 per year and receive a 25% government bonus (up to £1,000 annually). For property purchases, the home must cost £450,000 or less. Withdrawing for other purposes incurs a 25% penalty, effectively losing your bonus and some of your savings."
+      },
+      {
+        "heading": "Making the Most of Your Allowance",
+        "content": "Your ISA allowance resets each tax year and cannot be carried forward—use it or lose it. Consider your financial goals and time horizon when choosing between ISA types. For building wealth over the long term, many people prioritise Stocks and Shares ISAs due to the potential for higher returns, while keeping enough in Cash ISAs for short-term needs and emergencies."
+      }
+    ],
+    "relatedTools": ["pension-growth", "budget-planner"],
+    "relatedProducts": []
+  },
+  {
+    "slug": "self-employed-tax-basics",
+    "title": "Self-Employed Tax Basics",
+    "description": "Essential tax information for freelancers and sole traders in the UK.",
+    "featured": true,
+    "sections": [
+      {
+        "heading": "Registering as Self-Employed",
+        "content": "If you start working for yourself, you must register with HMRC as self-employed. You can do this online and should register by 5 October in your business's second tax year. Once registered, you'll need to complete a Self Assessment tax return each year and keep records of your income and expenses."
+      },
+      {
+        "heading": "Income Tax for the Self-Employed",
+        "content": "As a self-employed individual, you pay income tax on your profits (income minus allowable expenses). The tax bands are the same as for employed workers: Personal Allowance (£12,570 tax-free), Basic rate (20% on £12,571-£50,270), Higher rate (40% on £50,271-£125,140), and Additional rate (45% above £125,140). These thresholds apply to the 2024/25 tax year."
+      },
+      {
+        "heading": "National Insurance Contributions",
+        "content": "Self-employed individuals pay two types of National Insurance: Class 2 (a flat weekly rate if profits exceed £12,570) and Class 4 (a percentage of profits). Class 4 rates are currently 6% on profits between £12,570 and £50,270, and 2% on profits above this. These contributions count towards your State Pension and certain benefits."
+      },
+      {
+        "heading": "Allowable Expenses",
+        "content": "You can deduct legitimate business expenses from your income to reduce your tax bill. Common allowable expenses include: office costs (stationery, phone bills), travel costs (business journeys, not commuting), professional fees, marketing and advertising, and a proportion of home costs if you work from home. Keep receipts and records for at least 5 years."
+      },
+      {
+        "heading": "Payments on Account",
+        "content": "If your tax bill exceeds £1,000, HMRC typically requires payments on account—advance payments towards next year's tax bill. These are usually two payments, each half of your previous year's tax bill, due on 31 January and 31 July. This can catch new business owners off guard, so plan for these additional payments."
+      },
+      {
+        "heading": "Key Deadlines",
+        "content": "The tax year runs from 6 April to 5 April. Key deadlines: Register as self-employed by 5 October following your first tax year. Submit paper tax returns by 31 October, or online returns by 31 January. Pay any tax owed by 31 January. Missing deadlines results in automatic penalties, so set reminders and consider submitting early."
+      }
+    ],
+    "relatedTools": ["budget-planner"],
+    "relatedProducts": []
+  }
+]

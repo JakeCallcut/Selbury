@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "first-time-buyer-roadmap",
+    "title": "First-Time Buyer Roadmap",
+    "price": 2900,
+    "currency": "GBP",
+    "featured": true,
+    "problem": "Buying your first home is overwhelming. Between saving for a deposit, understanding mortgages, navigating solicitors, and managing the chain of events that leads to completion, it's easy to feel lost. Most first-time buyers waste time and money due to simple mistakes that could have been avoided with proper planning.",
+    "includes": [
+      "Complete step-by-step timeline from saving to completion",
+      "Deposit savings tracker and calculator",
+      "Mortgage comparison checklist",
+      "Questions to ask your solicitor",
+      "Survey options explained",
+      "Moving day preparation guide",
+      "Budget template for all buying costs",
+      "Common pitfalls and how to avoid them"
+    ],
+    "audience": "First-time buyers in England or Wales who want a clear, structured approach to purchasing their first property. Ideal if you're in the early planning stages or actively looking.",
+    "stripePriceId": "price_placeholder"
+  }
+]

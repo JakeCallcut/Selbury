@@ -1,0 +1,402 @@
+[
+  {
+    "term": "AER",
+    "definition": "Annual Equivalent Rate. The interest rate on a savings account if interest were paid and compounded once a year. Useful for comparing savings accounts with different interest payment frequencies.",
+    "category": "Savings"
+  },
+  {
+    "term": "Agreement in Principle (AIP)",
+    "definition": "A statement from a mortgage lender indicating how much they would likely lend you, subject to a full application. Also called a Decision in Principle (DIP) or Mortgage in Principle.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Annual Allowance",
+    "definition": "The maximum amount you can contribute to pensions each year while still receiving tax relief. Currently £60,000 or 100% of earnings, whichever is lower.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Annuity",
+    "definition": "A retirement product that converts your pension pot into a guaranteed income for life. Once purchased, the terms are typically fixed and cannot be changed.",
+    "category": "Pensions"
+  },
+  {
+    "term": "APR",
+    "definition": "Annual Percentage Rate. The total cost of borrowing over a year, including interest and fees. Used to compare loans and credit cards. The higher the APR, the more expensive the borrowing.",
+    "category": "Borrowing"
+  },
+  {
+    "term": "Arrears",
+    "definition": "When you owe money that should have already been paid. Being in mortgage arrears means you've missed one or more mortgage payments.",
+    "category": "Borrowing"
+  },
+  {
+    "term": "Base Rate",
+    "definition": "The interest rate set by the Bank of England that influences borrowing and savings rates across the UK economy. Changes to the base rate affect mortgage rates and savings returns.",
+    "category": "General"
+  },
+  {
+    "term": "Bonds",
+    "definition": "Loans to governments or companies that pay regular interest and return your capital at a set date. Generally considered lower risk than shares but higher risk than cash savings.",
+    "category": "Investing"
+  },
+  {
+    "term": "Bridging Loan",
+    "definition": "A short-term loan used to bridge a gap in financing, often when buying a new property before selling an existing one. Typically has higher interest rates than standard mortgages.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Capital Gains Tax (CGT)",
+    "definition": "Tax on the profit when you sell an asset that has increased in value. Applies to property (except main residence), shares, and other investments above your annual allowance.",
+    "category": "Tax"
+  },
+  {
+    "term": "Cash ISA",
+    "definition": "A tax-free savings account where interest earned is exempt from income tax. Part of your annual ISA allowance.",
+    "category": "Savings"
+  },
+  {
+    "term": "Chain",
+    "definition": "A sequence of linked property transactions where each sale depends on the completion of another. Chains can cause delays if one transaction falls through.",
+    "category": "Property"
+  },
+  {
+    "term": "Completion",
+    "definition": "The final stage of a property purchase when ownership legally transfers, funds are exchanged, and you receive the keys.",
+    "category": "Property"
+  },
+  {
+    "term": "Compound Interest",
+    "definition": "Interest calculated on both the initial principal and accumulated interest from previous periods. Over time, this creates exponential growth in savings or debt.",
+    "category": "General"
+  },
+  {
+    "term": "Conveyancing",
+    "definition": "The legal process of transferring property ownership from seller to buyer. Usually handled by a solicitor or licensed conveyancer.",
+    "category": "Property"
+  },
+  {
+    "term": "Credit Score",
+    "definition": "A numerical representation of your creditworthiness based on your credit history. Lenders use it to assess risk when you apply for credit. Higher scores generally mean better rates.",
+    "category": "Borrowing"
+  },
+  {
+    "term": "Defined Benefit Pension",
+    "definition": "A pension scheme that pays a guaranteed income in retirement based on salary and years of service. Also called a final salary pension. Increasingly rare in the private sector.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Defined Contribution Pension",
+    "definition": "A pension scheme where you and/or your employer contribute to a pot that's invested. Your retirement income depends on contributions made and investment performance.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Deposit",
+    "definition": "The upfront payment you make when buying a property, expressed as a percentage of the purchase price. Larger deposits typically secure better mortgage rates.",
+    "category": "Property"
+  },
+  {
+    "term": "Dividend",
+    "definition": "A payment made by a company to its shareholders from its profits. Can provide regular income from share investments.",
+    "category": "Investing"
+  },
+  {
+    "term": "Drawdown",
+    "definition": "A flexible way to access pension savings in retirement. You can take lump sums or regular amounts while leaving the rest invested. Also called flexi-access drawdown.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Early Repayment Charge (ERC)",
+    "definition": "A fee charged by mortgage lenders if you pay off your mortgage or overpay beyond limits during a fixed or discounted rate period.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Endowment",
+    "definition": "An investment policy once used to repay interest-only mortgages. Many failed to provide enough to clear the debt, causing an 'endowment gap'.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Equity",
+    "definition": "The portion of your property you own outright—the difference between its value and any outstanding mortgage. Builds as you repay the mortgage or if property values rise.",
+    "category": "Property"
+  },
+  {
+    "term": "Equity Release",
+    "definition": "Ways for homeowners (usually over 55) to access the value tied up in their home without selling. Includes lifetime mortgages and home reversion plans.",
+    "category": "Property"
+  },
+  {
+    "term": "Exchange of Contracts",
+    "definition": "The point in a property transaction when the sale becomes legally binding. Both buyer and seller are committed, and pulling out would incur significant costs.",
+    "category": "Property"
+  },
+  {
+    "term": "FCA",
+    "definition": "Financial Conduct Authority. The UK regulator responsible for consumer protection in financial services and maintaining market integrity.",
+    "category": "General"
+  },
+  {
+    "term": "First-Time Buyer",
+    "definition": "Someone who has never owned a property before. First-time buyers may qualify for stamp duty relief and certain government schemes.",
+    "category": "Property"
+  },
+  {
+    "term": "Fixed Rate Mortgage",
+    "definition": "A mortgage where the interest rate stays the same for a set period (typically 2-5 years), regardless of changes to the base rate. Provides payment certainty.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Freehold",
+    "definition": "Outright ownership of a property and the land it sits on, with no time limit. Compare with leasehold.",
+    "category": "Property"
+  },
+  {
+    "term": "FSCS",
+    "definition": "Financial Services Compensation Scheme. Protects UK consumers if a financial firm fails. Covers up to £85,000 per person per banking institution for deposits.",
+    "category": "General"
+  },
+  {
+    "term": "Fund",
+    "definition": "A pooled investment that holds a collection of assets like shares or bonds. Allows diversification without needing to buy individual holdings.",
+    "category": "Investing"
+  },
+  {
+    "term": "Gazumping",
+    "definition": "When a seller accepts a higher offer from another buyer after already accepting yours. Legal in England and Wales until exchange of contracts.",
+    "category": "Property"
+  },
+  {
+    "term": "Gazundering",
+    "definition": "When a buyer lowers their offer just before exchange of contracts, knowing the seller may feel pressured to accept.",
+    "category": "Property"
+  },
+  {
+    "term": "Ground Rent",
+    "definition": "An annual fee paid by leaseholders to the freeholder. Can increase over time depending on lease terms. Recent legislation limits ground rent on new leases.",
+    "category": "Property"
+  },
+  {
+    "term": "Help to Buy",
+    "definition": "Government schemes designed to help first-time buyers and home movers purchase a property. Various versions have existed; check current availability.",
+    "category": "Property"
+  },
+  {
+    "term": "HMRC",
+    "definition": "His Majesty's Revenue and Customs. The UK government department responsible for collecting taxes and administering benefits.",
+    "category": "Tax"
+  },
+  {
+    "term": "Income Tax",
+    "definition": "Tax paid on earned income including wages, self-employment profits, and some savings interest. Rates vary by income band: basic (20%), higher (40%), additional (45%).",
+    "category": "Tax"
+  },
+  {
+    "term": "Index Fund",
+    "definition": "A type of fund that tracks a specific market index (like the FTSE 100) rather than trying to beat it. Generally has lower fees than actively managed funds.",
+    "category": "Investing"
+  },
+  {
+    "term": "Inflation",
+    "definition": "The rate at which prices increase over time, reducing purchasing power. The Bank of England targets 2% inflation. Measured by CPI (Consumer Prices Index).",
+    "category": "General"
+  },
+  {
+    "term": "Inheritance Tax (IHT)",
+    "definition": "Tax on the estate of someone who has died, currently 40% on amounts above the nil-rate band (£325,000). Various exemptions and reliefs can apply.",
+    "category": "Tax"
+  },
+  {
+    "term": "Interest-Only Mortgage",
+    "definition": "A mortgage where monthly payments cover only the interest, not the capital. The full loan amount must be repaid at the end of the term.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "ISA",
+    "definition": "Individual Savings Account. A tax-efficient wrapper for savings or investments where gains and income are tax-free. Annual allowance is currently £20,000.",
+    "category": "Savings"
+  },
+  {
+    "term": "Land Registry",
+    "definition": "Government department that registers ownership of land and property in England and Wales. Records are public and can be searched for a fee.",
+    "category": "Property"
+  },
+  {
+    "term": "Leasehold",
+    "definition": "Ownership of a property for a fixed period, as specified in a lease with the freeholder. Common for flats. Lease length affects value and mortgageability.",
+    "category": "Property"
+  },
+  {
+    "term": "Lifetime Allowance",
+    "definition": "Previously the maximum amount you could hold in pensions without additional tax charges. Abolished from April 2024, though some protections continue.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Lifetime ISA (LISA)",
+    "definition": "An ISA for under-40s saving for a first home or retirement. Government adds 25% bonus on contributions up to £4,000 per year. Penalties apply for other withdrawals.",
+    "category": "Savings"
+  },
+  {
+    "term": "Loan-to-Value (LTV)",
+    "definition": "Your mortgage amount as a percentage of the property value. A £180,000 mortgage on a £200,000 property is 90% LTV. Lower LTV typically means better rates.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Mortgage",
+    "definition": "A loan secured against property. If you fail to keep up repayments, the lender can repossess the property to recover their money.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "National Insurance",
+    "definition": "Contributions deducted from earnings that count towards State Pension and certain benefits. Different classes apply to employed and self-employed individuals.",
+    "category": "Tax"
+  },
+  {
+    "term": "Negative Equity",
+    "definition": "When your property is worth less than the outstanding mortgage. Makes it difficult to sell or remortgage.",
+    "category": "Property"
+  },
+  {
+    "term": "Nil-Rate Band",
+    "definition": "The threshold below which no Inheritance Tax is charged on an estate. Currently £325,000, with an additional residence nil-rate band for homes left to direct descendants.",
+    "category": "Tax"
+  },
+  {
+    "term": "Offset Mortgage",
+    "definition": "A mortgage linked to savings accounts where your savings balance reduces the mortgage amount on which interest is charged.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Overpayment",
+    "definition": "Paying more than your required mortgage payment to reduce the outstanding balance faster. Check for early repayment charges and overpayment limits.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "PAYE",
+    "definition": "Pay As You Earn. The system by which employers deduct income tax and National Insurance from employee wages before payment.",
+    "category": "Tax"
+  },
+  {
+    "term": "Pension",
+    "definition": "A long-term savings plan for retirement with tax advantages. Types include workplace pensions, personal pensions, and the State Pension.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Personal Allowance",
+    "definition": "The amount of income you can earn each year before paying income tax. Currently £12,570. Reduces for those earning over £100,000.",
+    "category": "Tax"
+  },
+  {
+    "term": "Premium Bonds",
+    "definition": "A savings product from NS&I where instead of earning interest, you're entered into a monthly prize draw. Capital is secure but returns aren't guaranteed.",
+    "category": "Savings"
+  },
+  {
+    "term": "Remortgage",
+    "definition": "Switching your mortgage to a new deal, either with your current lender or a different one. Often done when a fixed rate period ends.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Repayment Mortgage",
+    "definition": "A mortgage where monthly payments cover both interest and capital, so the loan is fully repaid by the end of the term. Also called a capital repayment mortgage.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Self Assessment",
+    "definition": "The system for reporting income and paying tax if you're self-employed, have additional income, or need to claim tax relief. Returns due by 31 January.",
+    "category": "Tax"
+  },
+  {
+    "term": "Service Charge",
+    "definition": "Fees paid by leaseholders towards the maintenance of communal areas and building services. Can vary significantly between properties.",
+    "category": "Property"
+  },
+  {
+    "term": "Shared Ownership",
+    "definition": "A scheme where you buy a share of a property (25-75%) and pay rent on the rest. You can usually increase your share over time ('staircasing').",
+    "category": "Property"
+  },
+  {
+    "term": "SIPP",
+    "definition": "Self-Invested Personal Pension. A pension wrapper that gives you control over investment choices. Often has a wider range of investments than workplace pensions.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Solicitor",
+    "definition": "A qualified legal professional who handles conveyancing, contracts, and other legal matters in property transactions.",
+    "category": "Property"
+  },
+  {
+    "term": "Stamp Duty Land Tax (SDLT)",
+    "definition": "Tax paid when buying property in England and Northern Ireland above certain thresholds. Rates increase with property value. First-time buyers have relief.",
+    "category": "Property"
+  },
+  {
+    "term": "Standard Variable Rate (SVR)",
+    "definition": "The default interest rate your mortgage moves to after a fixed or discounted period ends. Usually higher than available fixed rates.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "State Pension",
+    "definition": "Regular payment from the government in retirement. Requires minimum National Insurance contributions. Full new State Pension requires 35 qualifying years.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Stocks and Shares ISA",
+    "definition": "A tax-efficient wrapper for investments in shares, funds, and bonds. Any gains or income are free from capital gains tax and income tax.",
+    "category": "Investing"
+  },
+  {
+    "term": "Survey",
+    "definition": "An inspection of a property's condition before purchase. Types range from basic valuations to full structural surveys. Can reveal issues affecting value or safety.",
+    "category": "Property"
+  },
+  {
+    "term": "Tax Code",
+    "definition": "A code used by employers to calculate how much income tax to deduct. Usually starts with your Personal Allowance divided by 10.",
+    "category": "Tax"
+  },
+  {
+    "term": "Tax Relief",
+    "definition": "Reduction in tax owed based on allowable expenses or contributions. Pension contributions receive tax relief at your marginal rate.",
+    "category": "Tax"
+  },
+  {
+    "term": "Tax Year",
+    "definition": "The UK tax year runs from 6 April to 5 April the following year. Allowances reset at the start of each tax year.",
+    "category": "Tax"
+  },
+  {
+    "term": "Tracker Mortgage",
+    "definition": "A mortgage with an interest rate that moves in line with the Bank of England base rate, typically set at base rate plus a fixed percentage.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Trust",
+    "definition": "A legal arrangement where assets are held by trustees for the benefit of beneficiaries. Used for estate planning, protecting assets, and managing money for others.",
+    "category": "General"
+  },
+  {
+    "term": "Underwriting",
+    "definition": "The process lenders use to assess your application and decide whether to approve it and on what terms.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Valuation",
+    "definition": "An assessment of a property's market value. Mortgage lenders require a basic valuation; buyers may commission more detailed surveys.",
+    "category": "Property"
+  },
+  {
+    "term": "Variable Rate Mortgage",
+    "definition": "A mortgage where the interest rate can change during the term. Includes tracker mortgages, discount mortgages, and SVRs.",
+    "category": "Mortgages"
+  },
+  {
+    "term": "Workplace Pension",
+    "definition": "A pension scheme arranged by your employer. Auto-enrolment means most employees are automatically enrolled and receive employer contributions.",
+    "category": "Pensions"
+  },
+  {
+    "term": "Yield",
+    "definition": "The income return on an investment, expressed as a percentage. For property, rental yield is annual rent divided by property value.",
+    "category": "Investing"
+  }
+]
