@@ -6,7 +6,7 @@ A lean UK personal finance website built with Next.js. Provides educational cont
 
 - **Static Content Pages**: About, Guides, Legal pages
 - **Client-Side Tools**: Mortgage affordability, stamp duty, pension growth, budget planner
-- **Digital Products**: Stripe Checkout integration for paid downloads
+- **Digital Products**: Paid downloadable resources
 - **Dark/Light Theme**: User preference with persistence
 - **SEO Optimised**: Static generation, semantic HTML, meta tags
 
@@ -15,7 +15,6 @@ A lean UK personal finance website built with Next.js. Provides educational cont
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Payments**: Stripe Checkout
 - **Hosting**: Vercel (free tier compatible)
 
 ## Getting Started
@@ -24,7 +23,6 @@ A lean UK personal finance website built with Next.js. Provides educational cont
 
 - Node.js 18+
 - npm
-- Stripe account (for payments)
 
 ### Installation
 
@@ -44,10 +42,8 @@ A lean UK personal finance website built with Next.js. Provides educational cont
    cp .env.example .env.local
    ```
 
-4. Edit `.env.local` with your Stripe keys:
+4. Edit `.env.local` with your settings:
    ```
-   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
-   STRIPE_SECRET_KEY=sk_test_your_key_here
    NEXT_PUBLIC_BASE_URL=http://localhost:3000
    ```
 
@@ -58,31 +54,6 @@ A lean UK personal finance website built with Next.js. Provides educational cont
 
 6. Open [http://localhost:3000](http://localhost:3000)
 
-## Stripe Setup
-
-### Test Mode
-
-1. Create a Stripe account at [stripe.com](https://stripe.com)
-2. Go to Developers > API Keys
-3. Copy your test mode keys to `.env.local`
-4. Use test card `4242 4242 4242 4242` for testing
-
-### Production Mode
-
-1. Complete Stripe account verification
-2. Switch to live mode in Stripe dashboard
-3. Update `.env` with live keys in Vercel
-4. Update product `stripePriceId` in `src/data/products.json` with actual Stripe Price IDs
-
-### Creating Products
-
-For production, create products in Stripe Dashboard:
-
-1. Go to Products > Add Product
-2. Create a price (one-time payment)
-3. Copy the Price ID (e.g., `price_1234...`)
-4. Update `stripePriceId` in `src/data/products.json`
-
 ## Deployment
 
 ### Vercel (Recommended)
@@ -90,8 +61,6 @@ For production, create products in Stripe Dashboard:
 1. Push code to GitHub
 2. Import project in [Vercel](https://vercel.com)
 3. Add environment variables:
-   - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-   - `STRIPE_SECRET_KEY`
    - `NEXT_PUBLIC_BASE_URL` (your production URL)
 4. Deploy
 
@@ -107,7 +76,6 @@ npm start
 ```
 src/
 ├── app/                    # Next.js App Router pages
-│   ├── api/checkout/       # Stripe checkout API
 │   ├── about/
 │   ├── guides/
 │   ├── tools/
@@ -126,7 +94,6 @@ src/
 ├── lib/
 │   ├── calculations/       # Tool logic
 │   ├── content.ts          # Content helpers
-│   ├── stripe.ts           # Stripe client
 │   └── utils.ts            # Utilities
 └── types/                  # TypeScript types
 ```
@@ -167,8 +134,7 @@ Edit `src/data/products.json`:
   "featured": true,
   "problem": "Problem statement...",
   "includes": ["Feature 1", "Feature 2"],
-  "audience": "Who it's for...",
-  "stripePriceId": "price_from_stripe"
+  "audience": "Who it's for..."
 }
 ```
 
@@ -190,7 +156,7 @@ All tools run client-side with no data storage:
 
 ## Phase 2 Considerations
 
-- Webhook for secure download delivery
+- Payment integration
 - Email collection with provider integration
 - Additional tools
 - More guide content

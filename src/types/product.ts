@@ -7,5 +7,4 @@ export interface Product {
   problem: string;
   includes: string[];
   audience: string;
-  stripePriceId: string;
 }

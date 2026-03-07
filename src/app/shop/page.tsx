@@ -56,7 +56,7 @@ export default function ShopPage() {
         <div className="p-6 bg-card border border-border">
           <h3 className="font-semibold text-foreground mb-2">Secure Payment</h3>
           <p className="text-sm text-muted">
-            All payments processed securely by Stripe. We never see your card details.
+            All payments processed securely. We never see your card details.
           </p>
         </div>
         <div className="p-6 bg-card border border-border">

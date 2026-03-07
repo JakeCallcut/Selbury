@@ -39,9 +39,9 @@ export default function PrivacyPage() {
             Purchase Information
           </h3>
           <p>
-            When you make a purchase, payment is processed securely by Stripe. We do not 
-            see or store your payment card details. We receive limited information from 
-            Stripe including your email address and purchase details, which we use to 
+            When you make a purchase, payment is processed securely. We do not 
+            see or store your payment card details. We receive limited information 
+            including your email address and purchase details, which we use to 
             deliver your purchase and provide customer support if needed.
           </p>
 
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
           </p>
           <ul className="list-disc pl-6 mt-3 space-y-1">
             <li>
-              <strong>Stripe:</strong> Our payment processor, who handles transactions 
+              <strong>Payment processor:</strong> Who handles transactions 
               under their own privacy policy
             </li>
             <li>

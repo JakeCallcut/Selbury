@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 import { Button, Card, CardContent } from '@/components/ui';
 import { Product } from '@/types';
@@ -11,51 +10,16 @@ interface BuyButtonProps {
 }
 
 export function BuyButton({ product }: BuyButtonProps) {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const handleBuy = async () => {
-    setLoading(true);
-    setError(null);
-
-    try {
-      const response = await fetch('/api/checkout', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          productSlug: product.slug,
-        }),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to create checkout session');
-      }
-
-      // Redirect to Stripe Checkout
-      window.location.href = data.url;
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong');
-      setLoading(false);
-    }
-  };
-
   return (
     <div>
       <Button 
         size="lg" 
-        onClick={handleBuy} 
-        disabled={loading}
+        disabled
         className="w-full sm:w-auto"
       >
-        {loading ? 'Processing...' : `Buy Now – ${formatPrice(product.price, product.currency)}`}
+        {`Buy Now – ${formatPrice(product.price, product.currency)}`}
       </Button>
-      {error && (
-        <p className="mt-2 text-sm text-red-500">{error}</p>
-      )}
+      <p className="mt-2 text-sm text-muted">Coming soon</p>
     </div>
   );
 }
@@ -137,12 +101,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Instant PDF download
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Secure payment via Stripe
                 </li>
                 <li className="flex items-center gap-2">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
