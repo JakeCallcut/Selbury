@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { BudgetPlanner } from '@/components/calculators';
+import { BudgetPlanner } from '@/components/tools';
 
 export const metadata: Metadata = {
   title: 'Budget Planner',

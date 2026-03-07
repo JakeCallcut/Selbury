@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { GlossarySearch } from '@/components/calculators/GlossarySearch';
+import { GlossarySearch } from '@/components/tools/GlossarySearch';
 import glossaryData from '@/data/glossary.json';
 import { GlossaryTerm } from '@/types/glossary';
 

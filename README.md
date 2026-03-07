@@ -1,11 +1,11 @@
 # Selbury
 
-A lean UK personal finance website built with Next.js. Provides educational content, client-side calculators, and paid digital products.
+A lean UK personal finance website built with Next.js. Provides educational content, client-side tools, and paid digital products.
 
 ## Features
 
 - **Static Content Pages**: About, Guides, Legal pages
-- **Client-Side Calculators**: Mortgage affordability, stamp duty, pension growth, budget planner
+- **Client-Side Tools**: Mortgage affordability, stamp duty, pension growth, budget planner
 - **Digital Products**: Stripe Checkout integration for paid downloads
 - **Dark/Light Theme**: User preference with persistence
 - **SEO Optimised**: Static generation, semantic HTML, meta tags
@@ -116,7 +116,7 @@ src/
 │   ├── disclaimer/
 │   └── privacy/
 ├── components/
-│   ├── calculators/        # Calculator components
+│   ├── tools/              # Tool components
 │   ├── layout/             # Header, Footer, Theme
 │   ├── sections/           # Page sections
 │   └── ui/                 # Reusable UI components
@@ -124,7 +124,7 @@ src/
 │   ├── guides.json         # Guide content
 │   └── products.json       # Product definitions
 ├── lib/
-│   ├── calculations/       # Calculator logic
+│   ├── calculations/       # Tool logic
 │   ├── content.ts          # Content helpers
 │   ├── stripe.ts           # Stripe client
 │   └── utils.ts            # Utilities
@@ -172,9 +172,9 @@ Edit `src/data/products.json`:
 }
 ```
 
-## Calculators
+## Tools
 
-All calculators run client-side with no data storage:
+All tools run client-side with no data storage:
 
 - **Mortgage Affordability**: 4.5x income multiplier
 - **Stamp Duty**: SDLT bands for England/NI with FTB relief
@@ -192,7 +192,7 @@ All calculators run client-side with no data storage:
 
 - Webhook for secure download delivery
 - Email collection with provider integration
-- Additional calculators
+- Additional tools
 - More guide content
 - Blog functionality
 

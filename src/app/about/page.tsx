@@ -20,7 +20,7 @@ export default function AboutPage() {
         <p className="text-muted leading-relaxed">
           We believe financial information should be accessible, clear, and free from 
           unnecessary complexity. Our guides break down topics into structured, actionable 
-          steps. Our calculators help you run the numbers with complete privacy—everything 
+          steps. Our tools help you run the numbers with complete privacy—everything 
           happens in your browser.
         </p>
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-semibold mt-12 mb-4">Privacy First</h2>
         <p className="text-muted leading-relaxed">
-          We take privacy seriously. Our calculators run entirely in your browser—no data 
+          We take privacy seriously. Our tools run entirely in your browser—no data 
           is sent to our servers or stored anywhere. When you close the page, your inputs 
           are gone. We don&apos;t track you across the web or sell your information.
         </p>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { StampDutyCalculator } from '@/components/calculators';
+import { StampDutyCalculator } from '@/components/tools';
 
 export const metadata: Metadata = {
   title: 'Stamp Duty Calculator',

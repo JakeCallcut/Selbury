@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { MortgageCalculator } from '@/components/calculators';
+import { MortgageCalculator } from '@/components/tools';
 
 export const metadata: Metadata = {
   title: 'Mortgage Affordability Calculator',

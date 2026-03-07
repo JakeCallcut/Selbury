@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 
 export const metadata: Metadata = {
   title: 'Tools',
-  description: 'Free UK personal finance calculators for mortgages, stamp duty, pensions, and budgeting.',
+  description: 'Free UK personal finance tools for mortgages, stamp duty, pensions, and budgeting.',
 };
 
 const tools = [
@@ -46,7 +46,7 @@ export default function ToolsPage() {
       <div className="max-w-2xl mb-12">
         <h1 className="text-4xl font-semibold text-foreground mb-4">Tools</h1>
         <p className="text-xl text-muted">
-          Free calculators to help you plan and make informed decisions. 
+          Free tools to help you plan and make informed decisions. 
           All calculations run in your browser—we don&apos;t store any of your data.
         </p>
       </div>
@@ -62,7 +62,7 @@ export default function ToolsPage() {
               </CardHeader>
               <CardContent>
                 <span className="text-sm text-primary font-medium">
-                  Use calculator →
+                  Use tool →
                 </span>
               </CardContent>
             </Card>
@@ -73,7 +73,7 @@ export default function ToolsPage() {
       <div className="mt-12 p-6 bg-card border border-border">
         <h2 className="text-lg font-semibold text-foreground mb-2">Privacy by Design</h2>
         <p className="text-muted">
-          All our calculators run entirely in your browser. We don&apos;t send your inputs 
+          All our tools run entirely in your browser. We don&apos;t send your inputs 
           to any server, and nothing is stored. When you close the page, your data is gone.
         </p>
       </div>

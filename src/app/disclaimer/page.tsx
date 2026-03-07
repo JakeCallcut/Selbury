@@ -16,7 +16,7 @@ export default function DisclaimerPage() {
             Educational Content Only
           </h2>
           <p>
-            The content provided on Selbury, including all articles, guides, calculators, 
+            The content provided on Selbury, including all articles, guides, tools, 
             and downloadable products, is for general educational and informational purposes 
             only. It is not intended to be, and should not be construed as, financial, tax, 
             legal, or investment advice.
@@ -66,10 +66,10 @@ export default function DisclaimerPage() {
 
         <section>
           <h2 className="text-xl font-semibold text-foreground mb-3">
-            Calculator Limitations
+            Tool Limitations
           </h2>
           <p>
-            Our calculators are designed to provide estimates and illustrations only. They 
+            Our tools are designed to provide estimates and illustrations only. They 
             use simplified assumptions and may not reflect your actual circumstances. 
             Results should be used as a starting point for further research and should 
             not be relied upon for making financial decisions.

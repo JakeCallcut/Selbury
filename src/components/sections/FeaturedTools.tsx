@@ -32,7 +32,7 @@ export function FeaturedTools() {
   return (
     <section className="py-12">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-2xl font-semibold text-foreground">Free Calculators</h2>
+        <h2 className="text-2xl font-semibold text-foreground">Free Tools</h2>
         <Link 
           href="/tools" 
           className="text-sm text-primary hover:underline font-medium"
@@ -52,7 +52,7 @@ export function FeaturedTools() {
               </CardHeader>
               <CardContent>
                 <span className="text-sm text-primary font-medium">
-                  Use calculator →
+                  Use tool →
                 </span>
               </CardContent>
             </Card>

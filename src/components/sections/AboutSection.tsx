@@ -13,7 +13,7 @@ export function AboutSection() {
           </p>
           <p>
             Our guides break down topics like buying your first home, understanding 
-            ISAs, and managing tax as a self-employed worker. Our calculators help 
+            ISAs, and managing tax as a self-employed worker. Our tools help 
             you run the numbers—entirely in your browser, with no data stored.
           </p>
           <p>

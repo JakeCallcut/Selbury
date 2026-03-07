@@ -27,11 +27,11 @@ export default function PrivacyPage() {
           </h2>
           
           <h3 className="text-lg font-medium text-foreground mt-4 mb-2">
-            Calculator Data
+            Tool Data
           </h3>
           <p>
-            Our calculators run entirely in your browser. We do not collect, store, or 
-            transmit any data you enter into our calculators. When you close the page, 
+            Our tools run entirely in your browser. We do not collect, store, or 
+            transmit any data you enter into our tools. When you close the page, 
             your inputs are gone.
           </p>
 

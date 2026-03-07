@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { PensionCalculator } from '@/components/calculators';
+import { PensionCalculator } from '@/components/tools';
 
 export const metadata: Metadata = {
   title: 'Pension Growth Calculator',

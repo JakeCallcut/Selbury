@@ -21,7 +21,7 @@ export function Hero() {
           </Link>
           <Link href="/tools">
             <Button variant="outline" size="lg">
-              Try Our Calculators
+              Try Our Tools
             </Button>
           </Link>
         </div>

@@ -99,7 +99,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
               Related Tools
             </h3>
             <p className="text-sm text-muted mb-4">
-              Try these calculators to help with your planning:
+              Try these tools to help with your planning:
             </p>
             <div className="flex flex-wrap gap-3">
               {guide.relatedTools.map((tool) => (
