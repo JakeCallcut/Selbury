@@ -10,8 +10,7 @@ export function Hero() {
         </h1>
         <p className="text-xl text-muted mb-8 leading-relaxed">
           Clear, practical resources to help you make informed decisions about 
-          mortgages, savings, pensions, and more. No jargon. No sales pitches. 
-          Just the information you need.
+          personal finance in the UK. 
         </p>
         <div className="flex flex-wrap gap-4">
           <Link href="/guides">
@@ -21,7 +20,7 @@ export function Hero() {
           </Link>
           <Link href="/tools">
             <Button variant="outline" size="lg">
-              Try Our Calculators
+              Try Our Tools
             </Button>
           </Link>
         </div>
