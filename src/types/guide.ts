@@ -1,3 +1,5 @@
+import { Tier } from './subscription';
+
 export interface GuideSection {
   heading: string;
   content: string;
@@ -10,5 +12,6 @@ export interface Guide {
   featured: boolean;
   sections: GuideSection[];
   relatedTools: string[];
-  relatedProducts: string[];
+  tierAccess: Tier[];
+  relatedProducts?: string[];
 }

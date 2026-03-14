@@ -31,6 +31,7 @@
       }
     ],
     "relatedTools": ["mortgage-affordability", "stamp-duty"],
+    "tierAccess": ["core", "complete", "tailored"],
     "relatedProducts": ["first-time-buyer-roadmap"]
   },
   {
@@ -65,6 +66,7 @@
       }
     ],
     "relatedTools": ["pension-growth", "budget-planner"],
+    "tierAccess": ["complete", "tailored"],
     "relatedProducts": []
   },
   {
@@ -99,6 +101,7 @@
       }
     ],
     "relatedTools": ["budget-planner"],
+    "tierAccess": ["tailored"],
     "relatedProducts": []
   }
 ]

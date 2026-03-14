@@ -1,0 +1,46 @@
+[
+  {
+    "id": "core",
+    "name": "Core",
+    "monthlyPrice": 0,
+    "annualPrice": 0,
+    "currency": "GBP",
+    "summary": "Core guides and articles with basic calculators.",
+    "features": [
+      "Core guides and articles",
+      "Basic calculators",
+      "No ads"
+    ]
+  },
+  {
+    "id": "complete",
+    "name": "Complete",
+    "monthlyPrice": 400,
+    "annualPrice": 3840,
+    "currency": "GBP",
+    "featured": true,
+    "summary": "All calculators and tools, plus downloadable worksheets and saved history.",
+    "features": [
+      "Everything in Core",
+      "All calculators and tools",
+      "Downloadable worksheets and checklists",
+      "Saved progress and history",
+      "No ads"
+    ]
+  },
+  {
+    "id": "tailored",
+    "name": "Tailored",
+    "monthlyPrice": 800,
+    "annualPrice": 7680,
+    "currency": "GBP",
+    "summary": "Personalised roadmaps with tracking and priority rate-and-rule updates.",
+    "features": [
+      "Everything in Complete",
+      "Personalised roadmaps",
+      "Roadmap tracking and milestone prompts",
+      "Priority updates for rule changes",
+      "No ads"
+    ]
+  }
+]

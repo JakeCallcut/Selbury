@@ -9,18 +9,18 @@ export function Hero() {
           Structured guidance for your financial journey
         </h1>
         <p className="text-xl text-muted mb-8 leading-relaxed">
-          Clear, practical resources to help you make informed decisions about 
-          personal finance in the UK. 
+          Clear, practical resources for personal finance in the UK. Start free,
+          then move to Complete or Tailored as you need more depth. No ads on any tier.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Link href="/guides">
+          <Link href="/pricing">
             <Button size="lg">
-              Browse Guides
+              Compare Tiers
             </Button>
           </Link>
-          <Link href="/tools">
+          <Link href="/guides">
             <Button variant="outline" size="lg">
-              Try Our Tools
+              Explore Guides
             </Button>
           </Link>
         </div>

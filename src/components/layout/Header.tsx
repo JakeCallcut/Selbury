@@ -8,7 +8,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/guides', label: 'Guides' },
   { href: '/tools', label: 'Tools' },
-  { href: '/shop', label: 'Shop' },
+  { href: '/pricing', label: 'Pricing' },
 ];
 
 export function Header() {

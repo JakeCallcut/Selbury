@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const footerLinks = [
+  { href: '/pricing', label: 'Pricing' },
   { href: '/disclaimer', label: 'Disclaimer' },
   { href: '/privacy', label: 'Privacy Policy' },
 ];
@@ -18,7 +19,7 @@ export function Footer() {
               Selbury
             </Link>
             <p className="mt-2 text-sm text-muted">
-              Structured guidance for your financial journey.
+              Structured guidance for your financial journey with no ads on any tier.
             </p>
           </div>
 

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Card, CardContent } from '@/components/ui';
 import { BudgetPlanner } from '@/components/tools';
+import { getTierAccessLabel, getToolBySlug } from '@/lib/content';
 
 export const metadata: Metadata = {
   title: 'Budget Planner',
@@ -8,6 +10,9 @@ export const metadata: Metadata = {
 };
 
 export default function BudgetPlannerPage() {
+  const tool = getToolBySlug('budget-planner');
+  const accessLabel = tool ? getTierAccessLabel(tool.tierAccess) : 'Complete';
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <nav className="mb-8">
@@ -25,6 +30,20 @@ export default function BudgetPlannerPage() {
           your money goes and identify opportunities to save more.
         </p>
       </div>
+
+      <Card variant="bordered" className="mb-8 bg-accent/10 border-accent/30">
+        <CardContent className="p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div>
+            <span className="inline-flex text-xs font-medium px-2 py-1 bg-accent/20 text-foreground mb-2">
+              {accessLabel}
+            </span>
+            <p className="text-sm text-muted">Available in higher tiers with worksheet downloads and saved history features.</p>
+          </div>
+          <Link href="/pricing" className="text-sm text-primary font-medium hover:underline">
+            View pricing →
+          </Link>
+        </CardContent>
+      </Card>
 
       <BudgetPlanner />
 
